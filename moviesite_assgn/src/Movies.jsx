@@ -29,7 +29,7 @@ class Movies extends React.Component {
         <form className="search" id="searchInput">
           <input
             type="search"
-            placeholder="Search for Movie Title...."
+            placeholder="Search for Movie Title ...."
             onChange={(e) => {
               this.setState({ search: e.target.value.toLowerCase() });
             }}
